@@ -16,6 +16,7 @@ public class Text1 {
             System.out.println(year+"鏄棸骞�");
         }else{
             System.out.println(year+"涓嶆槸闂板勾");
+	    System.out.println(year+"涓嶆槸闂板勾");
         }
     }
 }
