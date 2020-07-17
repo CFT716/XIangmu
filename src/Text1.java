@@ -3,17 +3,18 @@ import java.util.Scanner;
 public class Text1 {
 
 	public static void main(String[] args) {
-		System.out.println("ÇëÊäÈëÄê·İ:");
-        int year;//½ÓÊÕÊäÈëµÄÄê·İ
+		System.out.println("è¯·è¾“å…¥å¹´ä»½:");
+		System.out.println("è¯·è¾“å…¥å¹´ä»½:");
+        int year;//æ¥æ”¶è¾“å…¥çš„å¹´ä»½
         Scanner scanner = new Scanner(System.in);
         year = scanner.nextInt();
         if(year<0||year>3000){
-            System.out.println("Äê·İÓĞÎó£¡");
+            System.out.println("å¹´ä»½æœ‰è¯¯ï¼");
         }
         if(year%4==0&&year%100!=0||year%400==0){
-            System.out.println(year+"ÊÇÈòÄê");
+            System.out.println(year+"æ˜¯é—°å¹´");
         }else{
-            System.out.println(year+"²»ÊÇÈòÄê");
+            System.out.println(year+"ä¸æ˜¯é—°å¹´");
         }
     }
 }
